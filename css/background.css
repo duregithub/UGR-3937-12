@@ -2,7 +2,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: 10% auto 10%;
+  grid-template-rows: 15% auto 10%;
 }
 
 header {
@@ -101,11 +101,6 @@ p {
   background-color: lightgoldenrodyellow;
 }
 
-.second_row {
-  grid-row-start: 2;
-  background-color: grey;
-}
-
 /** vertical sub-grid *** **/
 .first_row {
   display: grid;
@@ -115,19 +110,19 @@ p {
 .box1 {
   display: flex;
   flex-direction: column;
+  margin-left: 40%;
 }
 
 .box2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
+  justify-content: space-around;
 }
 
 .box3 {
   display: flex;
   flex-direction: column;
+  margin-right: 40%;
 }
 
 /* styling flex columns */
@@ -154,19 +149,59 @@ p {
   margin-bottom: 40%;
 }
 
-.image1 {
+.column_images {
+  width: 70%;
+  height: 100%;
+}
 
+.image1 {
   align-self: flex-end;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .image2 {
   align-self: flex-start;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .image3 {
-
   align-self: flex-end;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
-.column_images {
-  
+
+/* styling second_row(tables) */
+.second_row {
+}
+
+.table_container {
+  padding: 2% 10%;
+  background-color: lightyellow;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin:0 auto;
+}
+
+td {
+  text-align: left;
+}
+
+th {
+  background-color: lightgrey;
+  text-align: left;
+}
+
+td,
+th {
+  padding: 2%;
+}
+
+tr,
+td {
+  border-bottom: 1px solid #ddd;
 }

@@ -93,7 +93,7 @@ body {
 
 .main_body {
   display: grid;
-  grid-template-rows: auto auto auto
+  grid-template-rows: auto auto auto;
 }
 
 .first_row {
@@ -114,51 +114,26 @@ body {
 .reach_row {
   background-color: yellow;
   padding: 2%;
-  text-align:center;
+  text-align: center;
 }
 
 /* display for icons */
 .image_row {
-  background-color: wheat;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding:2%;
-  
+  padding: 2%;
 }
 
 .third_row {
-  background-color: lightgrey;
+  background-color: red;
 }
 
 /* rows of third row */
 form {
-
-}
-
-.form_grid {
-
-  display: grid;
-  grid-template-rows: auto auto auto auto;
 }
 
 .chat_row {
-  background-color: linen;
-  padding: 2%;
-}
-
-.name_row {
-  background-color: lightpink;
-  padding:2%;
-}
-
-.email_row {
-  background-color: peru;
-  padding: 2%;
-}
-
-.submit_row {
-  background-color: rosybrown;
   padding: 2%;
 }
