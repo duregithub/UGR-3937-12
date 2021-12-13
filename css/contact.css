@@ -93,24 +93,28 @@ body {
 
 .main_body {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto
 }
 
 .first_row {
-  background-color: red;
-
+  background-color: lightgoldenrodyellow;
+  margin-top: 5%;
   text-align: center;
+}
+
+.first_row video {
+  width: 50%;
 }
 
 .second_row {
-  background-color: yellow;
-  text-align: center;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
 }
 /* styling second row */
 .reach_row {
-  background-color: snow;
+  background-color: yellow;
+  padding: 2%;
+  text-align:center;
 }
 
 /* display for icons */
@@ -120,6 +124,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding:2%;
+  
 }
 
 .third_row {
@@ -128,27 +134,31 @@ body {
 
 /* rows of third row */
 form {
-  height: 100%;
+
 }
 
 .form_grid {
-  height: 100%;
+
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
 }
 
 .chat_row {
   background-color: linen;
+  padding: 2%;
 }
 
 .name_row {
   background-color: lightpink;
+  padding:2%;
 }
 
 .email_row {
   background-color: peru;
+  padding: 2%;
 }
 
 .submit_row {
   background-color: rosybrown;
+  padding: 2%;
 }
