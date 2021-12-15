@@ -2,7 +2,7 @@
 
 .container {
   display: grid;
-  grid-template-rows: 20% auto 20%;
+  grid-template-rows: 10% auto 10%;
 }
 
 header {
@@ -65,6 +65,7 @@ nav ul li a {
   float: left;
   margin: auto;
   color: white;
+  background-color: rgb(43, 33, 33);
 }
 
 .icons {
@@ -82,40 +83,55 @@ body {
   margin: 0;
 }
 p {
-  margin: 0;
+
+  width: fit-content;
+  border: 1px solid grey;
+  margin:  2% auto;
+  padding: 1%;
+  background-color: lightcyan;
+  border-radius: 5px;
 }
 
 body {
+  background-color: white;
   margin: 0;
 }
 
-/* horizontal_grid */
 
 .main_body {
-  display: grid;
-  grid-template-rows: auto auto auto;
+  margin: 10%;
+  padding: 1%;
+  background-color: rgb(253, 253, 199);
+  border-radius: 5px;
 }
 
 .first_row {
-  background-color: lightgoldenrodyellow;
   margin-top: 5%;
   text-align: center;
 }
 
 .first_row video {
   width: 50%;
+  border-radius: 5px;
+
 }
 
 .second_row {
-  display: grid;
-  grid-template-rows: auto auto;
+ 
 }
-/* styling second row */
-.reach_row {
-  background-color: yellow;
-  padding: 2%;
-  text-align: center;
+
+.reach_row { /* don't think you are needed */
+
 }
+
+/* .reach_row p {            contained in p
+  width: fit-content;
+  border: 1px solid grey;
+  margin:  2% auto;
+  padding: 1%;
+  background-color: lightcyan;
+  border-radius: 1%;
+} */
 
 /* display for icons */
 .image_row {
@@ -126,14 +142,32 @@ body {
   padding: 2%;
 }
 
+.image_row img {
+  margin: 1%;
+}
+
 .third_row {
-  background-color: red;
+  text-align: center;
 }
 
-/* rows of third row */
-form {
+.form1 {
+
+    width: 20%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid grey;
 }
 
-.chat_row {
-  padding: 2%;
+.form2 {
+
+  width: 15%;
+  padding: 1%;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+
+.form_container input {
+  margin-right: 2%;
+  margin-top: 2%;
 }
