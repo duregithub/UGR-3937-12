@@ -1,92 +1,11 @@
-/* grid ********************/
-
-.container {
-  display: grid;
-  grid-template-rows: 10% auto 10%;
-}
-
-header {
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-main {
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-footer {
-  grid-row-start: 3;
-}
-/* header *********************/
-
-.main_header {
-  padding: 40px 5%;
-  background-color: rgb(43, 33, 33);
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-div.logo {
-  float: left;
-}
-
-nav ul li {
-  border: 1px solid;
-  border-radius: 0.5em;
-  margin: 5px 5px;
-  padding: 1px;
-}
-
-nav ul li a {
-  display: block;
-  padding: 3px 7px;
-  text-decoration: none;
-  color: white;
-}
-
-/*footer section ******************/
-.main_footer {
-  padding: 20px 5%;
-  background-color: rgb(43, 33, 33);
-  /* position: absolute;
-    top: 100%;
-    width: 100%; */
-}
-
-.copywrite {
-  float: left;
-  margin: auto;
-  color: white;
-  background-color: rgb(43, 33, 33);
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-}
-
-.icons img {
-  padding: 5px;
-}
-
 /* main */
-
 body {
   margin: 0;
 }
 p {
-
   width: fit-content;
   border: 1px solid grey;
-  margin:  2% auto;
+  margin: 2% auto;
   padding: 1%;
   background-color: lightcyan;
   border-radius: 5px;
@@ -96,7 +15,6 @@ body {
   background-color: white;
   margin: 0;
 }
-
 
 .main_body {
   margin: 10%;
@@ -113,25 +31,7 @@ body {
 .first_row video {
   width: 50%;
   border-radius: 5px;
-
 }
-
-.second_row {
- 
-}
-
-.reach_row { /* don't think you are needed */
-
-}
-
-/* .reach_row p {            contained in p
-  width: fit-content;
-  border: 1px solid grey;
-  margin:  2% auto;
-  padding: 1%;
-  background-color: lightcyan;
-  border-radius: 1%;
-} */
 
 /* display for icons */
 .image_row {
@@ -151,21 +51,18 @@ body {
 }
 
 .form1 {
-
-    width: 20%;
-    padding: 1%;
-    border-radius: 5px;
-    border: 1px solid grey;
-}
-
-.form2 {
-
-  width: 15%;
+  width: 20%;
   padding: 1%;
   border-radius: 5px;
   border: 1px solid grey;
 }
 
+.form2 {
+  width: 15%;
+  padding: 1%;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
 
 .form_container input {
   margin-right: 2%;
