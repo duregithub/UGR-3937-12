@@ -59,6 +59,8 @@ nav ul li a {
 .main-footer {
   padding: 20px 5%;
   background-color: rgb(70, 70, 62);
+  position: relative;
+  bottom: 0;
 
   /* position: absolute;
     top: 100%;
@@ -84,35 +86,40 @@ nav ul li a {
 
 body {
   margin: 0;
+ 
 }
 
 h1 {
-  
   text-align: center;
-  border: 1px solid;
+
+  margin: 0 auto;
+  margin-top: 10%;
+  width: fit-content;
 }
 
 p {
-  border: 1px solid;
-  text-align: center;
 }
-main {
-  background-color: lightgoldenrodyellow;
+
+.paragraph_container p {
+  width: fit-content;
+  margin: 1% auto;
 }
 
 .header_container {
-  margin:0;
-  border: 1px solid;
+  text-align: center;
 }
 
 .paragraph_container {
-  margin:0;
-  border: 1px solid;
-  
+  text-align: center;
+}
+main {
 
 }
 
 .main_container {
-  background-color: lightgoldenrodyellow;
-  height:100%;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+html {
+  max-height: 100vh;
 }
