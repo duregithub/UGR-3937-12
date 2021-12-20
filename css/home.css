@@ -1,46 +1,57 @@
+/* header */
+
+/* *********** footer ******** */
+
+
+
+
 /* grid */
 
 .container {
   height: 100vh;
 }
 
-
 /* main */
 
 body {
   margin: 0;
- 
+  /* background-color: #24252a; */
 }
+/* 
+.main_footer {
+
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+} */
 
 h1 {
   text-align: center;
-
-  margin: 0 auto;
-  margin-top: 10%;
-  width: fit-content;
 }
 
 p {
 }
 
 .paragraph_container p {
-  width: fit-content;
-  margin: 1% auto;
+  text-align: center;
 }
 
 .header_container {
-  text-align: center;
+  width: 50%;
 }
 
 .paragraph_container {
-  text-align: center;
+  width: 50%;
 }
 main {
-
 }
 
 .main_container {
-  /* background-color: lightgoldenrodyellow; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 html {

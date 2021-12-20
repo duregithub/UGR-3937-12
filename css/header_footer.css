@@ -2,7 +2,7 @@
 
 .container {
     display: grid;
-    grid-template-rows: 10% auto 10%;
+    grid-template-rows: 20vh auto 15vh;
   }
   
   header {
@@ -19,7 +19,44 @@
     grid-row-start: 3;
   }
   /* header *********************/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+  }
   
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav__links {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+    border-bottom: 1px solid grey;
+    border-radius: 3px;
+  
+  
+  }
+  
+/*   
   .main_header {
     padding: 40px 5%;
     background-color: rgb(99, 99, 78);
@@ -49,29 +86,43 @@
     padding: 3px 7px;
     text-decoration: none;
     color: white;
-  }
+  } */
   
   /*footer section ******************/
   .main_footer {
-    padding: 20px 5%;
-    background-color: rgb(43, 33, 33);
-    /* position: absolute;
-      top: 100%;
-      width: 100%; */
+    background-color: #24252a;
+    display: flex;
+    justify-content: space-between;
+
+ 
   }
   
-  .copywrite {
-    float: left;
-    margin: auto;
+  .copywrite  {
+    
     color: white;
-    background-color: rgb(43, 33, 33);
+    margin: auto 10px;
   }
   
   .icons {
-    display: flex;
-    justify-content: center;
+
+    margin: auto auto;
+
   }
   
   .icons img {
-    padding: 5px;
+   margin: 10px;
+  }
+
+  /* ********   body *********** */
+
+  main {
+/* 
+background-color:   #3d3e46; */
+background-color: #292b35;
+
+  }
+
+  body {
+
+    color: white;
   }

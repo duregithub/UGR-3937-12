@@ -19,7 +19,7 @@ body {
 .main_body {
   margin: 10%;
   padding: 1%;
-  background-color: rgb(253, 253, 199);
+  /* background-color: rgb(253, 253, 199); */
   border-radius: 5px;
 }
 
