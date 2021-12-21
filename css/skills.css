@@ -18,7 +18,7 @@ main {
   height: 100%;
   display: grid;
   grid-template-rows: auto auto;
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow; */
 }
 
 /*** style for first grid *******/
@@ -26,7 +26,7 @@ main {
 .first_grid {
   margin: 3% 3% 0%;
   padding: 5%;
-  background-color: rgb(211, 173, 178);
+  /* background-color: rgb(211, 173, 178); */
   border-radius: 10px;
 }
 
@@ -89,7 +89,7 @@ main {
 }
 
 .box1 {
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   padding: 10%;
   border-radius: 10px 0px 0px 10px;
   animation-name: change;
@@ -113,7 +113,7 @@ main {
 }
 
 .box3 {
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   padding: 10%;
   border-radius: 0px 10px 10px 0px;
 }

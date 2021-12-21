@@ -20,7 +20,7 @@ p {
 .first_row {
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow; */
 }
 
 /** vertical sub-grid *** **/
@@ -99,8 +99,8 @@ p {
 }
 
 .table_container {
-  padding: 2% 10%;
-  background-color: lightyellow;
+  /* padding: 2% 10%;
+  background-color: lightyellow; */
 }
 
 table {

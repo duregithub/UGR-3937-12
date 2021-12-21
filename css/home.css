@@ -1,10 +1,6 @@
 /* header */
 
 /* *********** footer ******** */
-
-
-
-
 /* grid */
 
 .container {
@@ -15,15 +11,7 @@
 
 body {
   margin: 0;
-  /* background-color: #24252a; */
 }
-/* 
-.main_footer {
-
-  position: absolute;
-  width: 100vw;
-  bottom: 0;
-} */
 
 h1 {
   text-align: center;
@@ -57,3 +45,6 @@ main {
 html {
   max-height: 100vh;
 }
+
+/**** responsive design *****/
+
