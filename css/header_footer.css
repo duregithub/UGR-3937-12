@@ -33,6 +33,8 @@ header {
 
 .logo {
   cursor: pointer;
+  width: 150px;
+  height: 80px;
 }
 
 .nav__links {
@@ -103,7 +105,8 @@ header {
   }
 
   .logo {
-
+    width: 90px;
+    height: 70px;
   }
   /* footer */
 
@@ -139,6 +142,16 @@ footer a {
   display: flex;
   justify-content: space-evenly;
 }
+
+.tiwtter {
+
+  opacity: 0;
+}
+i:hover {
+  transition: 0.4s;
+  transform: scale3d(1.2, 1.2, 0.3);
+}
+
 
 /* ********   body *********** */
 

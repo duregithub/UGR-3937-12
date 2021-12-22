@@ -30,7 +30,7 @@ main {
 
 .list {
   padding: 5% 10%;
-  margin-top: 2%;
+
 }
 
 /* styling progress bar */
@@ -127,43 +127,39 @@ main {
   .parent_grid {
     grid-template-columns: 1fr;
   }
-  .lower_paragraph {
 
-  }
 
-  .upper_paragraph {
-  
-  }
+
 
   .box2 img {
     vertical-align: center;
   }
   .progress_bar1 {
-    height: 10px;
+    height: 12px;
     width: 70%;
     background-color: lightblue;
     border-radius: 2px;
   }
   .progress_bar2 {
-    height: 10px;
+    height: 12px;
     width: 65%;
     background-color: lightcoral;
     border-radius: 2px;
   }
   .progress_bar3 {
-    height: 10px;
+    height: 12px;
     width: 90%;
     background-color: lightcyan;
     border-radius: 2px;
   }
   .progress_bar4 {
-    height: 10px;
+    height: 12px;
     width: 75%;
     background-color: lightgrey;
     border-radius: 2px;
   }
   .progress_bar5 {
-    height: 10px;
+    height: 12px;
     width: 50%;
     background-color: lightgoldenrodyellow;
     border-radius: 2px;
