@@ -36,13 +36,13 @@ body {
 }
 
 .main_body {
-  margin: 10%;
+  margin: 5%;
   padding: 1%;
   border-radius: 5px;
 }
 
 .first_row {
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: center;
 }
 
@@ -70,14 +70,14 @@ body {
 
 .form1 {
   width: 20%;
-  padding: 1%;
+  padding: 5px;
   border-radius: 5px;
   border: 1px solid grey;
 }
 
 .form2 {
   width: 15%;
-  padding: 1%;
+  padding: 5px;
   border-radius: 5px;
   border: 1px solid grey;
 }
@@ -88,9 +88,8 @@ body {
 }
 
 .submit {
-  background-color: rgb(164, 194, 192);
-  border-radius: 5px;
-  text-align: center;
+  width: 10%;
+  height: 5%;
 }
 
 .submit:hover {
@@ -104,12 +103,50 @@ body {
     margin: 0 1%;
   }
 
+  .first_row {
+    margin-top: 1%;
+  }
   .first_row video {
     width: 60%;
     border-radius: 5px;
   }
-  .submit {
 
-    width: 20px;}
-    
+  .contact_row {
+    margin: 7% 0;
+  }
+  .name {
+    display: block;
+  }
+
+  .phone {
+    display: block;
+  }
+  .email {
+    display: block;
+  }
+
+  .message {
+    display: block;
+  }
+
+  .form1 {
+    width: 50%;
+  }
+
+  .submit {
+    display: block;
+    width: 100px;
+    margin: auto auto;
+  }
+  .form2 {
+    width: 50%;
+  }
+
+  .form_container input {
+    margin: 4% auto;
+  }
+  .submit {
+    display: block;
+    width: 100px;
+  }
 }

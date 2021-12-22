@@ -1,6 +1,9 @@
-
 /* grid ********************/
 
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
 .container {
   display: grid;
   grid-template-rows: 25vh auto 20vh;
@@ -50,17 +53,17 @@ header {
   padding: 5px;
 }
 
-.nav__links li a:hover{
+.nav__links li a:hover {
   background-color: #0088a9;
   border-radius: 5px;
 }
 .active {
   background-color: rgb(43, 40, 40);
   border: 1px solid;
-  border-radius: 5px;}
+  border-radius: 5px;
+}
 
 /* responsiveness for header and footer */
-
 
 @media only screen and (max-width: 720px) {
   .container {
@@ -89,9 +92,18 @@ header {
     margin: 0;
     padding: 0;
   }
-
+  .active {
+    background-color: rgb(71, 68, 68);
+    border-radius: 5px;
+    
+  }
   .nav__links li a {
     display: block;
+    border: 0;
+  }
+
+  .logo {
+
   }
   /* footer */
 
@@ -118,7 +130,8 @@ header {
 }
 
 footer a {
-  color: white;}
+  color: white;
+}
 
 .icons {
   margin: auto auto;
@@ -136,6 +149,6 @@ body {
   color: white;
   background-image: url(../images/gray4.jpg);
   background-size: 50% 100%;
-  background-color: rgb(95, 91, 91);
+  background-color: rgb(121, 117, 117);
   background-repeat: repeat-y;
 }

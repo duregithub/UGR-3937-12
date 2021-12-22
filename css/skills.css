@@ -122,17 +122,20 @@ main {
 
     height: 70%;
     margin: auto 0;} */
-
+  * {
+    font-size: 16px;}
+  .parent_grid {
+    grid-template-columns: 1fr;
+  }
   .lower_paragraph {
-    font-size: x-small;
+
   }
 
   .upper_paragraph {
-    font-size: x-small;
+  
   }
 
   .box2 img {
-    height: 70%;
     vertical-align: center;
   }
   .progress_bar1 {
@@ -171,6 +174,6 @@ main {
   }
 
   li {
-    font-size: x-small;
+  ;
   }
 }
