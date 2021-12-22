@@ -117,6 +117,10 @@ header {
   .icons i {
     margin: auto 5px;
   }
+  .tiwtter {
+
+    opacity: 0;
+  }
 }
 
 /*footer section ******************/
