@@ -95,27 +95,20 @@ p {
 }
 
 /* styling second_row(tables) */
-.second_row {
-}
-
-.table_container {
-  /* padding: 2% 10%;
-  background-color: lightyellow; */
-}
 
 table {
-  width: 70%;
+  width: 50%;
   border-collapse: collapse;
   margin:0 auto;
 }
 
 td {
-  text-align: left;
+  text-align: center;
 }
 
 th {
-  background-color: lightgrey;
-  text-align: left;
+  background-color: rgb(8, 4, 4);
+  text-align: center;
 }
 
 td,
@@ -126,4 +119,25 @@ th {
 tr,
 td {
   border-bottom: 1px solid #ddd;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 720px) {
+  
+
+  .main_body p {
+
+    font-size: x-small;
+  }
+
+  .box1 {
+    margin: 0;
+  }
+
+  .box3 {
+    
+    margin: 0;
+  }
+
 }
