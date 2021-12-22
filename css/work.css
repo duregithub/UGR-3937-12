@@ -31,16 +31,12 @@ p {
 }
 
 .images {
-
-
   width: 45%;
   height: 45%;
   margin-top: 2%;
 }
 
 .paragraphs {
-
-
   width: 45%;
   height: 45%;
   margin-top: 2%;
@@ -48,9 +44,7 @@ p {
 }
 
 .paragraphs p {
-
   text-align: center;
- 
 }
 
 /* movement *******/
@@ -60,12 +54,10 @@ p {
 }
 
 .move_left {
-
   align-self: flex-end;
 }
 
 .paragraphs p {
-
   width: 100%;
   height: 100%;
 }
@@ -73,25 +65,15 @@ p {
 /* ***** responsiveness ******** */
 
 @media screen and (max-width: 720px) {
-
   * {
-
     font-size: 16px;
   }
   .main_body {
-
     grid-template-columns: 1fr;
   }
   .images {
-
-
     width: 45%;
     height: 45%;
     margin-top: 5%;
   }
-  
-
-
-
-
 }

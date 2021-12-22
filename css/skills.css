@@ -30,7 +30,10 @@ main {
 
 .list {
   padding: 5% 10%;
+}
 
+.list ul li {
+  margin-top: 2%;
 }
 
 /* styling progress bar */
@@ -118,18 +121,12 @@ main {
 /* ******* responsiveness ***** */
 
 @media screen and (max-width: 720px) {
-  /* .box2 img {
-
-    height: 70%;
-    margin: auto 0;} */
   * {
-    font-size: 16px;}
+    font-size: 16px;
+  }
   .parent_grid {
     grid-template-columns: 1fr;
   }
-
-
-
 
   .box2 img {
     vertical-align: center;
@@ -167,9 +164,5 @@ main {
   .bar_container {
     border: 1px solid;
     border-radius: 2px;
-  }
-
-  li {
-  ;
   }
 }

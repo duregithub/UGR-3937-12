@@ -73,12 +73,6 @@ header {
     grid-template-rows: auto auto auto;
   }
 
-  /* label {
-    display: block;
-    cursor: pointer;
-    float: right;
-  } */
-
   header {
     display: block;
   }
@@ -97,7 +91,6 @@ header {
   .active {
     background-color: rgb(71, 68, 68);
     border-radius: 5px;
-    
   }
   .nav__links li a {
     display: block;
@@ -118,14 +111,12 @@ header {
     margin: auto 5px;
   }
   .tiwtter {
-
     opacity: 0;
   }
 }
 
 /*footer section ******************/
 .main_footer {
-  /* background-color: #24252a; */
   display: flex;
   justify-content: space-between;
 }
@@ -148,14 +139,12 @@ footer a {
 }
 
 .tiwtter {
-
   opacity: 0;
 }
 i:hover {
   transition: 0.4s;
   transform: scale3d(1.2, 1.2, 0.3);
 }
-
 
 /* ********   body *********** */
 
