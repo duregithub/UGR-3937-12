@@ -11,14 +11,14 @@ body {
 }
 
 h1 {
+
   text-align: center;
   font-size: 2rem;
 }
 
-p {
-}
 
-.paragraph_container p {
+h4 {
+  font-weight: lighter;
   text-align: center;
   font-size: 1.2rem;
 }
