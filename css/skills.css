@@ -18,7 +18,6 @@ main {
   height: 100%;
   display: grid;
   grid-template-rows: auto auto;
-  /* background-color: lightgoldenrodyellow; */
 }
 
 /*** style for first grid *******/
@@ -26,13 +25,8 @@ main {
 .first_grid {
   margin: 3% 3% 0%;
   padding: 5%;
-  /* background-color: rgb(211, 173, 178); */
   border-radius: 10px;
 }
-
-/* .paragraph { currently not in use;
- 
-} */
 
 .list {
   padding: 5% 10%;
@@ -46,37 +40,38 @@ main {
   border-radius: 5px;
 }
 .progress_bar1 {
-  height: 24px;
+  height: 20px;
   width: 70%;
   background-color: lightblue;
   border-radius: 5px;
 }
 .progress_bar2 {
-  height: 24px;
+  height: 20px;
   width: 65%;
   background-color: lightcoral;
   border-radius: 5px;
 }
 .progress_bar3 {
-  height: 24px;
+  height: 20px;
   width: 90%;
   background-color: lightcyan;
   border-radius: 5px;
 }
 .progress_bar4 {
-  height: 24px;
+  height: 20px;
   width: 75%;
   background-color: lightgrey;
   border-radius: 5px;
 }
 .progress_bar5 {
-  height: 24px;
+  height: 20px;
   width: 50%;
   background-color: lightgoldenrodyellow;
   border-radius: 5px;
 }
 
 /*** style for second grid *******/
+
 .second_grid {
   margin: 2% 3% 5%;
 }
@@ -92,16 +87,7 @@ main {
   /* background-color: lightsalmon; */
   padding: 10%;
   border-radius: 10px 0px 0px 10px;
-  animation-name: change;
-  animation-duration: 3s;
-  animation-iteration-count: 10;
 }
-
-/* @keyframes change {
-
-  from {background-color: lightsalmon;}
-  to{ background-color: red;}
-} */
 
 .box2 {
   text-align: center;
@@ -113,7 +99,6 @@ main {
 }
 
 .box3 {
-  /* background-color: lightsalmon; */
   padding: 10%;
   border-radius: 0px 10px 10px 0px;
 }
@@ -128,4 +113,64 @@ main {
 .upper_paragraph {
   text-align: center;
   padding: 5%;
+}
+
+/* ******* responsiveness ***** */
+
+@media screen and (max-width: 720px) {
+  /* .box2 img {
+
+    height: 70%;
+    margin: auto 0;} */
+
+  .lower_paragraph {
+    font-size: x-small;
+  }
+
+  .upper_paragraph {
+    font-size: x-small;
+  }
+
+  .box2 img {
+    height: 70%;
+    vertical-align: center;
+  }
+  .progress_bar1 {
+    height: 10px;
+    width: 70%;
+    background-color: lightblue;
+    border-radius: 2px;
+  }
+  .progress_bar2 {
+    height: 10px;
+    width: 65%;
+    background-color: lightcoral;
+    border-radius: 2px;
+  }
+  .progress_bar3 {
+    height: 10px;
+    width: 90%;
+    background-color: lightcyan;
+    border-radius: 2px;
+  }
+  .progress_bar4 {
+    height: 10px;
+    width: 75%;
+    background-color: lightgrey;
+    border-radius: 2px;
+  }
+  .progress_bar5 {
+    height: 10px;
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 2px;
+  }
+  .bar_container {
+    border: 1px solid;
+    border-radius: 2px;
+  }
+
+  li {
+    font-size: x-small;
+  }
 }
