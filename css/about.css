@@ -1,0 +1,21 @@
+
+.paragraph_container p {
+    
+}
+
+.paragraph_container {
+
+    text-align: center;
+    margin: 10% 10% 0 10%;
+}
+
+
+
+.image {
+
+    width: 300px;
+    height: 200px;
+    margin: auto auto;
+    border-radius: 10px;
+
+}
