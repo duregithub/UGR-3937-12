@@ -1,8 +1,4 @@
 
-.paragraph_container p {
-    
-}
-
 .paragraph_container {
 
     text-align: center;
@@ -16,6 +12,7 @@
     width: 300px;
     height: 200px;
     margin: auto auto;
+    margin-top: 5%;
     border-radius: 10px;
 
 }

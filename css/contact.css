@@ -2,24 +2,42 @@
 body {
   margin: 0;
 }
-p {
+
+.reach_row p {
   width: fit-content;
   border: 1px solid grey;
   margin: 2% auto;
   padding: 1%;
-  background-color: lightcyan;
   border-radius: 5px;
 }
 
+.chat_row p {
+  width: fit-content;
+  border: 1px solid grey;
+  margin: 2% auto;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.contact_row {
+  text-align: center;
+}
+
+.contact_row a {
+  color: white;
+}
+
+i {
+  margin: 0 5%;
+}
+
 body {
-  background-color: white;
   margin: 0;
 }
 
 .main_body {
   margin: 10%;
   padding: 1%;
-  /* background-color: rgb(253, 253, 199); */
   border-radius: 5px;
 }
 
@@ -67,4 +85,31 @@ body {
 .form_container input {
   margin-right: 2%;
   margin-top: 2%;
+}
+
+.submit {
+  background-color: rgb(164, 194, 192);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.submit:hover {
+  background-color: grey;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 720px) {
+  i {
+    margin: 0 1%;
+  }
+
+  .first_row video {
+    width: 60%;
+    border-radius: 5px;
+  }
+  .submit {
+
+    width: 20px;}
+    
 }

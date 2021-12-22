@@ -55,21 +55,12 @@ header {
   border-radius: 5px;
 }
 .active {
-  background-color: grey;
+  background-color: rgb(43, 40, 40);
   border: 1px solid;
   border-radius: 5px;}
 
 /* responsiveness for header and footer */
-label {
-  line-height: 70px;
-  margin-left: auto;
-  float: right;
-  display: none;
-}
 
-#toggle {
-  display: none;
-}
 
 @media only screen and (max-width: 720px) {
   .container {
@@ -125,6 +116,9 @@ label {
   margin: auto 0;
   margin-right: 5px;
 }
+
+footer a {
+  color: white;}
 
 .icons {
   margin: auto auto;
